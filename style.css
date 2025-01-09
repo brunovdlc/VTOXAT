@@ -77,6 +77,7 @@ body {
 }
 
 .message {
+    top: 87%;
     position: absolute;
     right: 20px;
     bottom: 10px;
@@ -110,3 +111,4 @@ body {
     margin: 0;
     padding: 0;
 }
+
