@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://i.imgur.com/U8ZtjD3.png);
+    background-image: url(https://i.imgur.com/fmOpsQv.png);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -8,19 +8,29 @@ body {
 .but {
     z-index: 1000;
     position: absolute;
-    background-color: #383838;
-    padding: 20px 8px 8px 8px;
-    border-radius: 6px;
-    border: 1px solid #707070;
+    background-color: #4A4A4A;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
     top: 10%;
     right: 1%;
-    color: #ffffff;
+    color: #FFFFFF;
     text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .but:hover {
     background-color: #000000;
-}
+    color: #FFD700; /* Amarelo ouro para destaque */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
+    transform: translateY(-2px); /* Efeito de elevação */
+} 
 
 .but1 {
     z-index: 1000;
